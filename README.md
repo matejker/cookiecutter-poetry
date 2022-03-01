@@ -15,3 +15,7 @@ cookiecutter https://github.com/matejker/cookiecutter-poetry.git  # for HTTP
 cookiecutter git+ssh://git@github.com:matejker/cookiecutter-poetry.git  # for SSH
 ```
 3. Follow `cookiecutter's` command line dialog and set project name, description etc...
+4. (Optional but essential) Set up git yourself using:
+```bash
+git init
+```
