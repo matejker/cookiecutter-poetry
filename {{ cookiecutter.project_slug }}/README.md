@@ -11,4 +11,4 @@ make typecheck  # runs mypy
 make test  # runs unit [py]tests
 ```
 
-This package was created with Cookiecutter and the [matejker](https://github.com/matejker)/[cookiecutter-poetry](https://github.com/matejker/cookiecutter-poetry) project template.
+_This package was created with Cookiecutter and the **[matejker](https://github.com/matejker) /** [cookiecutter-poetry](https://github.com/matejker/cookiecutter-poetry) project template._

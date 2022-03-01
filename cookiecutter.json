@@ -1,0 +1,6 @@
+{
+    "project_name": "Cookiecutter Poetry",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package using Poetry.",
+    "command_line_script": "y"
+}
