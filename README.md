@@ -9,6 +9,7 @@ A boilerplate for Python packages using Poetry and other conventions.
 brew install cookiecutter
 ```
 _Other ways to install `cookiecutter`, see [docs](https://cookiecutter.readthedocs.io/en/1.7.2/installation.html)._
+
 2. Run `cookiecutter` in parent directory where your project will be located:
 ```bash
 cookiecutter https://github.com/matejker/cookiecutter-poetry.git  # for HTTP
