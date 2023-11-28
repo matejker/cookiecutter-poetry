@@ -5,21 +5,22 @@ description = "{{ cookiecutter.project_short_description }}"
 authors = ["Matej Kerekrety <matej.kerekrety@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.11"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
 pytest = "^7.0.1"
 black = "^22.1.0"
-mypy = "^0.931"
+mypy = "^0.981"
 bandit = "^1.7.3"
 pytest-cov = "^3.0.0"
+pre-commit = "^3.2.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
 {% if cookiecutter.command_line_script == "y" -%}
+
 [tool.poetry.scripts]
 {{ cookiecutter.project_slug.replace('-', '_') }} = "{{ cookiecutter.project_slug.replace('-', '_') }}.__main__:main"
 {% endif %}

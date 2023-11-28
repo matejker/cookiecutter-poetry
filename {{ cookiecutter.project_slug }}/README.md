@@ -5,6 +5,7 @@
 ### Development
 In this repo we use a few tools to keep the code clean, styled and properly tested:
 ```shell
+make activate  # creates a virtual environment and installs all dependencies
 make lint  # runs flake8 and Black check
 make autoformat  # runs Black formating
 make typecheck  # runs mypy
